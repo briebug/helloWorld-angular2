@@ -4,10 +4,10 @@ import {HelloWorldApp} from './components/hello-world/hello-world.component';
 import {PeopleService} from './services/people.service';
 
 bootstrap(
-	HelloWorldApp, 
+	HelloWorldApp,
 	[
 		PeopleService,
-		ROUTER_BINDINGS, 
+		ROUTER_BINDINGS,
 		bind(APP_BASE_HREF).toValue('/')
 	]
 );

@@ -1,7 +1,12 @@
-<div class="widget" [style.background-color]="color">
-    <div [title]="title" (click)="expanded = !expanded">{{title}}</div>
+<div class="widget {{color}}">
+    <div [title]="title" (click)="expanded = !expanded" >
+        <div class="widget-head">
+            <div class="page-title pull-left ng-binding">{{title}}</div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
     <div class="widget-content text-center text-info" [hidden]="!expanded">
-        <content select="[content]"></content>
+        <ng-content select="[content]"></ng-content>
     </div>
     <div class="widget-foot">
         <div class="clearfix"></div>

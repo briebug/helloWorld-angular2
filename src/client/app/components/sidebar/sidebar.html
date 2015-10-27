@@ -1,8 +1,15 @@
-<div class="side-bar">
-    <ul class="nav-list">
-        <li class="nav-item"
-            *ng-for="#route of navRoutes">
-            <a class="nag-link" [router-link]="route.ref">{{route.name}}</a>
-        </li>
-    </ul>
+<div class="sidebar">
+    <div class="sidebar-filler"></div>
+    <div class="sidebar-dropdown">
+        <a href="#">Menu</a>
+    </div>
+    <div class="sidebar-inner">
+        <div class="sidebar-widget"></div>
+        <ul class="navi">
+            <li class="nlightblue"
+                *ng-for="#route of navRoutes">
+                <a class="nag-link" [router-link]="route.ref"><i class="fa {{route.iconClass}}"></i> {{route.name}}</a>
+            </li>
+        </ul>
+    </div>
 </div>

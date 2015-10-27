@@ -11,7 +11,10 @@ import {PeopleService, IPerson} from '../../services/people.service';
 })
 export class DashboardComponent {
 	constructor(peopleSvc: PeopleService) {
-		this.people = peopleSvc.listAll();
+		peopleSvc.listAll()
+			.then((data) => {
+				this.people = data;
+			});
 		this.news = {
 			description: "This is news!"
 		};

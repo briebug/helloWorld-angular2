@@ -3,7 +3,8 @@ import {ROUTER_DIRECTIVES} from 'angular2/router';
 
 export interface IRoute {
 	ref: string[],
-	name: string
+	name: string,
+	iconClass: string
 }
 
 @Component({
@@ -16,8 +17,8 @@ export class SidebarComponent {
 
 	constructor() {
 		this.navRoutes = [
-			{ name: 'Dashboard', ref: ['./Dashboard'] },
-			{ name: 'Admin', ref: ['./Admin'] }
+			{ name: 'Dashboard', ref: ['./Dashboard'], iconClass: 'fa-dashboard' },
+			{ name: 'Admin', ref: ['./Admin'], iconClass: 'fa-lock' }
 		];
 	}
 }

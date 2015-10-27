@@ -47,9 +47,11 @@ Icon
 # other
 *.log
 *.tmp
+*.map
 tmp/
 .tmp/
 coverage/
 build/
 testBuild/
 deploy/
+*.js

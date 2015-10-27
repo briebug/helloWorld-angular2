@@ -1,0 +1,8 @@
+<div class="side-bar">
+    <ul class="nav-list">
+        <li class="nav-item"
+            *ng-for="#route of navRoutes">
+            <a class="nag-link" [router-link]="route.ref">{{route.name}}</a>
+        </li>
+    </ul>
+</div>

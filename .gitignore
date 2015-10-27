@@ -1,0 +1,55 @@
+# Dependency directories
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules/
+bower_components/
+typings/
+
+
+# JetBrains stuff
+*.iml
+*.ipr
+*.iws
+/out/
+.idea/
+.idea_modules/
+
+# SublimeText stuff
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+
+# VisualStudio Code
+.vscode
+
+# Windows junk
+Thumbs.db
+ethumbs.db
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+
+# MacOSX junk
+.DS_store
+.LSOverride
+*._*
+# This one MUST end with two \r
+Icon
+
+
+
+# other
+*.log
+*.tmp
+tmp/
+.tmp/
+coverage/
+build/
+testBuild/
+deploy/

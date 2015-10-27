@@ -8,7 +8,7 @@ export interface IRoute {
 
 @Component({
 	selector: 'sidebar',
-	templateUrl: 'app/sidebar/sidebar.html',
+	templateUrl: 'app/components/sidebar/sidebar.html',
 	directives: [NgFor, CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
 export class SidebarComponent {

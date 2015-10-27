@@ -25,14 +25,14 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <ht-container title="People" color="violet">
-                        <ht-people people="vm.people"></ht-people>
-                    </ht-container>
+                    <container title="People" color="violet">
+                        <people content [people]="people"></people>
+                    </container>
                 </div>
                 <div class="col-md-6">
-                    <ht-container title="News" color="red">
-                        <ht-news news="vm.news"></ht-news>
-                    </ht-container>
+                    <container title="News" color="red">
+                        <news content [news]="news"></news>
+                    </container>
                 </div>
             </div>
         </div>

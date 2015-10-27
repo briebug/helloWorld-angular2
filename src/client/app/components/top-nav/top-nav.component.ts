@@ -9,7 +9,7 @@ export interface INavLine {
 @Component({
 	selector: 'top-nav',
 	properties: ['navline'],
-	templateUrl: 'app/top-nav/top-nav.html'
+	templateUrl: 'app/components/top-nav/top-nav.html'
 })
 export class TopNavComponent {
 	constructor() {

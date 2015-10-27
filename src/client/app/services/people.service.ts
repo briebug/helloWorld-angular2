@@ -21,6 +21,6 @@ export class PeopleService {
 	private data: IPerson[];
 
 	listAll() {
-		return data;
+		return this.data;
 	}
 }

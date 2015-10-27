@@ -7,7 +7,7 @@ import {AdminComponent} from '../admin/admin.component';
 
 @Component({
 	selector: 'hello-world',
-	templateUrl: 'app/hello-world/hello-world.html',
+	templateUrl: 'app/components/hello-world/hello-world.html',
 	directives: [ROUTER_DIRECTIVES, TopNavComponent, SidebarComponent]
 })
 @RouteConfig([

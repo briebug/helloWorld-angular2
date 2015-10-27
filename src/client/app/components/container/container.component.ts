@@ -1,15 +1,17 @@
-import {Component} from 'angular2/angular2';
+import {Component, NgClass} from 'angular2/angular2';
 
 @Component({
 	selector: 'container',
-	properties: ['expanded'],
-	templateUrl: 'app/container/container.html'
+	properties: ['expanded', 'title', 'color'],
+	templateUrl: 'app/components/container/container.html',
+	directives: [NgClass]
 })
 export class ContainerComponent {
 	constructor() {
 		this.expanded = true;
 	}
 
-	headerColor: string;
+	title: string;
+	color: string;
 	expanded: boolean;
 }

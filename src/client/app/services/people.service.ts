@@ -9,7 +9,7 @@ export class PeopleService {
 	constructor() { }
 
 	listAll() {
-		return window.fetch('/api/people')
+		return (<any>window).fetch('/api/people')
 			.then(function(res) {
 				return res.text();
 			})

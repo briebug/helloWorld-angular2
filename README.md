@@ -1,4 +1,4 @@
-This is the third demo in a series on how to refactor your AngularJS 1.x application to Angular 2. The first two demos refactored John Papa's Hot Towel project into a componentized, TypeScript application. This third demo actually converts the AngularJS 1.x TypeScript application () into an Angular 2 app.
+This is the third demo in a series on how to refactor your AngularJS 1.x application to Angular 2. The first two demos refactored John Papa's Hot Towel project into a componentized, TypeScript application. This third demo actually converts the AngularJS 1.x TypeScript application (https://github.com/briebugconsulting/helloWorld-typescript) into an Angular 2 app.
 
 This demo will be presented alongside a slide deck that will introduce the basic parts of an Angular 2 application and provide resources for learning more about Angular 2. In addition, we will do a side-by-side comparison of AngularJS 1.x components from the previous demo and their Angular 2 counterparts in this application.
 
@@ -29,7 +29,7 @@ This project is a work in progress. As Angular 2 matures and new features are re
 	npm run tsc
 	```
 
-5. Run application (execute from project's root folder)
+5. Run the application (execute from project's root folder)
 
     ```bash
     node src/server/app.js

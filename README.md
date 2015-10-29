@@ -35,4 +35,4 @@ This project is a work in progress. As Angular 2 matures and new features are re
     node src/server/app.js
     ```
 
-6. Open a browser and navigate to http://127.0.0.1:2020
+6. Open a browser and navigate to http://127.0.0.1:8001
